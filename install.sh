@@ -11,12 +11,13 @@ cd UDPComms
 sudo bach install.sh
 cd ..
 
+# PS4Joystick
 git clone https://github.com/stanfordroboticsclub/PS4Joystick.git
 cd PS4Joystick
 sudo bash install.sh
 cd ..
 
-#joystick.service
+# joystick.service
 git clone https://github.com/stanfordroboticsclub/PupperCommand.git
 cd PupperCommand
 sudo bash install.sh
