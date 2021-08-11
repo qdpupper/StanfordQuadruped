@@ -4,23 +4,31 @@ yes | pip install numpy transforms3d pigpio pyserial
 yes | sudo pip install numpy transforms3d pigpio pyserial
 
 cd ..
-git clone https://github.com/stanfordroboticsclub/PupperCommand.git
-cd PupperCommand
-sudo bash install.sh
-cd ..
+
+# UDPComms
+git clone https://github.com/qdpupper/UDPComms.git
+cd UDPComms
+sudo bach install.sh
+cd..
 
 git clone https://github.com/stanfordroboticsclub/PS4Joystick.git
 cd PS4Joystick
 sudo bash install.sh
 cd ..
-sudo systemctl enable joystick
 
-wget https://github.com/joan2937/pigpio/archive/v74.zip
-unzip v74.zip
-cd pigpio-74
-make
-sudo make install
+git clone https://github.com/stanfordroboticsclub/PupperCommand.git
+cd PupperCommand
+sudo bash install.sh
 cd ..
+
+#sudo systemctl enable joystick
+
+#wget https://github.com/joan2937/pigpio/archive/v74.zip
+#unzip v74.zip
+#cd pigpio-74
+#make
+#sudo make install
+#cd ..
 
 cd StanfordQuadruped
 sudo ln -s $(realpath .)/robot.service /etc/systemd/system/
