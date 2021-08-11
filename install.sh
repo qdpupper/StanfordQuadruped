@@ -12,13 +12,15 @@ sudo bach install.sh
 cd ..
 
 # PS4Joystick
-git clone https://github.com/stanfordroboticsclub/PS4Joystick.git
+#git clone https://github.com/stanfordroboticsclub/PS4Joystick.git
+git clone https://github.com/qdpupper/PS4Joystick.git
 cd PS4Joystick
 sudo bash install.sh
 cd ..
 
 # joystick.service
-git clone https://github.com/stanfordroboticsclub/PupperCommand.git
+#git clone https://github.com/stanfordroboticsclub/PupperCommand.git
+git clone https://github.com/qdpupper/PupperCommand.git
 cd PupperCommand
 sudo bash install.sh
 cd ..
