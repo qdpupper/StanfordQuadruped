@@ -16,6 +16,7 @@ cd PS4Joystick
 sudo bash install.sh
 cd ..
 
+#joystick.service
 git clone https://github.com/stanfordroboticsclub/PupperCommand.git
 cd PupperCommand
 sudo bash install.sh
