@@ -9,7 +9,7 @@ cd ..
 git clone https://github.com/qdpupper/UDPComms.git
 cd UDPComms
 sudo bach install.sh
-cd..
+cd ..
 
 git clone https://github.com/stanfordroboticsclub/PS4Joystick.git
 cd PS4Joystick
