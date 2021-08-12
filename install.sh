@@ -8,7 +8,7 @@ cd ..
 # UDPComms
 git clone https://github.com/qdpupper/UDPComms.git
 cd UDPComms
-sudo bach install.sh
+sudo bash install.sh
 cd ..
 
 # PS4Joystick
