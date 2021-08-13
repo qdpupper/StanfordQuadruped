@@ -1,5 +1,7 @@
 # Stanford Quadruped
 
+# 软件安装指南: https://github.com/qdpupper/PupperGuide
+
 ## Overview
 This repository hosts the code for Stanford Pupper and Stanford Woofer, Raspberry Pi-based quadruped robots that can trot, walk, and jump. 
 
